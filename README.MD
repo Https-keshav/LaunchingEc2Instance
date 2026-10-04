@@ -18,7 +18,7 @@ Provisions an Ubuntu 22.04 EC2 instance on AWS using Terraform, with a managed S
 | `provider.tf` | AWS provider and region |
 | `variables.tf` | All input variables with defaults and validation |
 | `Keypair.tf` | SSH key pair (reads the public key from a file) |
-| `SecFrp.tf` | Security group and its ingress/egress rules |
+| `SecGrp.tf` | Security group and its ingress/egress rules |
 | `InstaID.tf` | AMI lookup data source and outputs |
 | `Instance.tf` | EC2 instance |
 | `.gitignore` | Keeps state files, keys and your tfvars out of Git |
