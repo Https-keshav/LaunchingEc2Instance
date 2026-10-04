@@ -1,0 +1,32 @@
+# Terraform working files
+.terraform/
+.terraform.lock.hcl.bak
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# State files (contain resource details in plain text)
+*.tfstate
+*.tfstate.*
+
+# Variable files with real values (the .example file stays tracked)
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# SSH keys - never commit private keys
+trialKey
+trialKey.pub
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
